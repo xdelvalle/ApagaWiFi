@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ApagaWIFI</string>
+    <string name="action_settings">Configuració</string>
+    <string name="logoDescripcion">logoDescription</string>
+	<string name="guarda_pos">Desar Posició</string>
+    <string name="guardar_pos2">Escollir un nom para la xarxa Wi-Fi</string>
+    <string name="nombre_wifi">Nom (p ex. Casa)</string>
+    <string name="guardar">Desar</string>
+    <string name="about">Sobre..</string>
+    <string name="config">Configuració</string>
+    <string name="mi_nombre">El meu nom</string>  
+    <string name="distancia">Distancia</string>
+    <string name="distancia_info">Distancia en metres (Mínim 300 metres)</string>
+    <string name="notificaciones">Notificacions</string>  
+    <string name="notificaciones_info">Rebre notificacions</string>  
+    <string name="posiciones_guardadas">Posicions desades</string>
+    <string name="sin_posiciones">No hi ha cap posició</string>
+    <string name="acerca_de">ApagaWifi v1.3\nXSoftLabs 2013</string>
+    <string name="activar">Activar ApagaWifi</string>  
+    <string name="activar_info">Activa o desactiva ApagaWifi</string>
+    
+    <string name="no_provider">Error! No hi ha cap provider</string>
+    <string name="location_null">Error! LocationManager és Null</string>
+    <string name="eliminada">eliminada!</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="posicion">Posició</string>
+    <string name="activar_wifi">Wi-fi Activada</string>
+    <string name="desactivar_wifi">Wi-fi desactivada</string>
+
+</resources>

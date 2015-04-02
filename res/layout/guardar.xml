@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:text="@string/guardar_pos2"
+        android:textColor="@android:color/background_light" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="10dip"
+        android:ems="10"
+        android:hint="@string/nombre_wifi" >
+
+        <requestFocus />
+        
+    </EditText>
+
+    <Button
+        android:id="@+id/btnGuardar"
+        style="@style/Botones"
+        android:layout_marginBottom="20dip"
+        android:layout_marginTop="20dip"
+        android:onClick="guardarLocalizacion"
+        android:text="@string/guardar" />
+
+</LinearLayout>

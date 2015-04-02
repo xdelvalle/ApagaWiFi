@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="preferencias_principal" >
+	
+	<CheckBoxPreference
+        android:defaultValue="True"
+        android:key="activar_apagaWifi"
+        android:summary="@string/activar_info"
+        android:title="@string/activar" />
+    
+    <CheckBoxPreference
+        android:defaultValue="True"
+        android:key="notificaciones"
+        android:summary="@string/notificaciones_info"
+        android:title="@string/notificaciones" />
+    
+    <EditTextPreference
+        android:defaultValue="300"
+        android:key="distancia"
+        android:summary="@string/distancia_info"
+        android:title="@string/distancia" />
+
+</PreferenceScreen>

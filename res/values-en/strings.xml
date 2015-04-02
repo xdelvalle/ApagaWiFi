@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ApagaWIFI</string>
+    <string name="action_settings">Settings</string>
+    <string name="logoDescripcion">logoDescription</string>
+	<string name="guarda_pos">Save position</string>
+    <string name="guardar_pos2">Choose a name for the Wi-Fi</string>
+    <string name="nombre_wifi">Name (f ex. Home)</string>
+    <string name="guardar">Save</string>
+    <string name="about">About</string>
+    <string name="config">Configuration</string>
+    <string name="mi_nombre">My name</string>  
+    <string name="distancia">Distance</string>
+    <string name="distancia_info">Distance in meters (Minium 300 meters)</string>
+    <string name="notificaciones">Notifications</string>  
+    <string name="notificaciones_info">Receive notifications</string>  
+    <string name="posiciones_guardadas">Saved positions</string>
+    <string name="sin_posiciones">No positions saved</string>
+    <string name="acerca_de">ApagaWifi v1.3\nXSoftLabs 2013</string>
+    <string name="activar">Activate ApagaWifi</string>  
+    <string name="activar_info">Switch-on or Switch-off ApagaWifi</string>
+    
+    <string name="no_provider">Error! No provider</string>
+    <string name="location_null">Error! LocationManager is Null</string>
+    <string name="eliminada">deleted!</string>
+    <string name="eliminar">Delete</string>
+    <string name="posicion">Position</string>
+    <string name="activar_wifi">Wi-Fi have been switched-on</string>
+    <string name="desactivar_wifi">Wi-Fi have been switched-off</string>
+
+</resources>

@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:orientation="vertical"
+    tools:context=".PrincipalActivity" >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="200dip"
+        android:layout_marginLeft="150dip"
+        android:layout_marginRight="150dip"
+        android:layout_marginTop="50dip"
+        android:contentDescription="@string/logoDescripcion"
+        android:src="@drawable/wifi" />
+
+    <Button
+        android:id="@+id/btnGuardar"
+        style="@style/Botones"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dip"
+        android:layout_marginLeft="150dip"
+        android:layout_marginRight="150dip"
+        android:onClick="guardaPosicion"
+        android:text="@string/guarda_pos" />
+
+    <Button
+        android:id="@+id/btnLista"
+        style="@style/Botones"
+        android:layout_above="@+id/btnGuardar"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="150dip"
+        android:layout_marginRight="150dip"
+        android:onClick="listadoPosicionesGuardadas"
+        android:text="@string/posiciones_guardadas" />
+
+</RelativeLayout>
